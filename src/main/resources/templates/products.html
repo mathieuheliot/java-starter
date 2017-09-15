@@ -1,0 +1,27 @@
+
+<#include "layout.html"/>
+
+<#macro title>Products</#macro>
+
+<#macro content>
+    <h1>Products</h1>
+
+    <table class="mdl-data-table mdl-js-data-table">
+        <thead>
+        <th>Code</th>
+        <th class="mdl-data-table__cell--non-numeric">Libellé</th>
+        <th>Price</th>
+        </thead>
+        <tbody>
+        <#list products as product>
+            <tr>
+                <td>${product.id}</td>
+                <td class="mdl-data-table__cell--non-numeric">${product.name}</td>
+                <td></td>
+            </tr>
+        </#list>
+        </tbody>
+    </table>
+</#macro>
+
+<@display_page/>
