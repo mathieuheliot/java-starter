@@ -1,0 +1,10 @@
+
+// Vendors
+@import
+'../../../node_modules/material-design-lite/src/material-design-lite';
+
+$primary-color: pink;
+
+html, body {
+    background: $primary-color;
+}
