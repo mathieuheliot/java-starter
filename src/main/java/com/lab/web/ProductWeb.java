@@ -1,6 +1,5 @@
 package com.lab.web;
 
-import com.lab.api.mappers.ProductMapper;
 import com.lab.entities.Product;
 import com.lab.controllers.ProductController;
 import org.springframework.beans.factory.annotation.Autowired;

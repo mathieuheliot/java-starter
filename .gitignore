@@ -1,12 +1,21 @@
 
-**/*.iml
+/*.iml
+/.idea
+/.classpath
+/.project
+/.settings
 
-.idea/**/*
+/.vscode
 
-node_modules
+/bower_components/
+/node_modules
+/npm-debug.log
 
-src/main/resources/static/css
+/node_modules/
 
-src/main/resources/static/js
-
-target
+/.sass-cache/
+/.tmp/
+/dist/
+/src/main/resources/static/css
+/src/main/resources/static/js
+/target
