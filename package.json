@@ -1,6 +1,6 @@
 {
-  "name": "agrial",
-  "description": "An management Agrial project",
+  "name": "java-starter",
+  "description": "A Java project set up with Spring Boot, Freemarker, SASS and Webpack.",
   "author": "Mathieu Héliot <mathieu.heliot@gmail.com",
   "private": true,
   "scripts": {
