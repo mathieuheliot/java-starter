@@ -1,21 +1,21 @@
 
-/*.iml
-/.idea
-/.classpath
-/.project
-/.settings
+.DS_Store
+.sass-cache/
+.tmp/
+bower_components/
+dist/
+node_modules/
+npm-debug.log*
+target
 
-/.vscode
+# Editor directories and files
+*.iml
+.idea
+.classpath
+.project
+.settings
+.vscode
 
-/bower_components/
-/node_modules
-/npm-debug.log
-
-/node_modules/
-
-/.sass-cache/
-/.tmp/
-/dist/
-/src/main/resources/static/css
-/src/main/resources/static/js
-/target
+# Project directories and path
+src/main/resources/static/css
+src/main/resources/static/js
