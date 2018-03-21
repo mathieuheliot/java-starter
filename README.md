@@ -1,8 +1,9 @@
 # JAVA Starter
 
 ## Install
-1. `mvn install`
-2. `npm install`
+1. Create an application.properties configuration file from application.properties.template
+2. `mvn install`
+3. `npm install`
 
 ## Usage
 * Serve backend: `spring-boot:run`

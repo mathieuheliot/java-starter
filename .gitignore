@@ -17,5 +17,6 @@ target
 .vscode
 
 # Project directories and path
+src/main/resources/application.properties
 src/main/resources/static/css
 src/main/resources/static/js
